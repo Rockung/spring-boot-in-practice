@@ -63,6 +63,8 @@ graphql:
         exception-handlers-enabled: true
         tracingEnabled: false
         actuator-metrics: true
+        websocket:
+            enabled: false
 
 graphiql:
     enabled: true

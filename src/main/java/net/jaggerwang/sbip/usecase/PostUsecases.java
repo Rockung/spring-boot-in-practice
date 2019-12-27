@@ -6,7 +6,7 @@ import net.jaggerwang.sbip.usecase.exception.NotFoundException;
 import net.jaggerwang.sbip.usecase.port.repository.PostRepository;
 
 public class PostUsecases extends BaseUsecases {
-    private PostRepository postRepository;
+    private final PostRepository postRepository;
 
     public PostUsecases(PostRepository postRepository) {
         this.postRepository = postRepository;

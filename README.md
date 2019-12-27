@@ -112,7 +112,7 @@ Change configs in `src/main/resources/application.yml` as your need, especially 
 mvn spring-boot:run
 ```
 
-The running main class is `net.jaggerwang.sbip.api.SbipApplication`. When first start server, it will auto create tables, we use flyway to migrate database changes. You can disable auto create with argument `--spring.flyway.enabled=false`, and then run with argument `--app.type=db_migration` to manually create tables.
+The running main class is `net.jaggerwang.sbip.api.SbipApplication`. When first start server, it will auto create tables, we use flyway to migrate database changes.
 
 After started, the api service's endpoint is `http://localhost:8080/`.
 

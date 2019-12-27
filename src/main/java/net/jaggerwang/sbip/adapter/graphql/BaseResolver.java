@@ -14,7 +14,7 @@ import net.jaggerwang.sbip.usecase.StatUsecases;
 import net.jaggerwang.sbip.usecase.UserUsecases;
 
 
-public abstract class BaseResolver {
+abstract public class BaseResolver {
     @Autowired
     protected ObjectMapper objectMapper;
 

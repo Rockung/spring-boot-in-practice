@@ -8,9 +8,8 @@ import net.jaggerwang.sbip.usecase.port.repository.PostStatRepository;
 import net.jaggerwang.sbip.usecase.port.repository.UserStatRepository;
 
 public class StatUsecases extends BaseUsecases {
-    private UserStatRepository userStatRepository;
-
-    private PostStatRepository postStatRepository;
+    private final UserStatRepository userStatRepository;
+    private final PostStatRepository postStatRepository;
 
     public StatUsecases(UserStatRepository userStatRepository,
             PostStatRepository postStatRepository) {

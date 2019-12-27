@@ -6,7 +6,7 @@ import net.jaggerwang.sbip.usecase.exception.NotFoundException;
 import net.jaggerwang.sbip.usecase.port.repository.RoleRepository;
 
 public class AuthorityUsecases extends BaseUsecases {
-    private RoleRepository roleRepository;
+    private final RoleRepository roleRepository;
 
     public AuthorityUsecases(RoleRepository roleRepository) {
         this.roleRepository = roleRepository;
